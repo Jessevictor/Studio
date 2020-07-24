@@ -3,35 +3,35 @@
     
 }
 .intro{
-    background-image: url(/images/landing.jpg);
+    background-image: url(/landing.jpg);
     background-size: cover;
     padding:200px;
     padding-left: 20px;
 }
 .logo{
     display: block;
-    margin-left: 530px;
+    margin-left: 517px;
     margin-right: auto;
     width: 50px
 }
 #welcome{
     text-align: center;
     color: white;
-    margin-left:225px;
+    margin-left:200px;
     font-size:28px ;
     font-weight: bold;
 }
 #dilani{
     text-align: center;
     color: white;
-    margin-left:225px;
+    margin-left:200px;
     font-size: 25px;
     font-weight: bold;
 }
 .intro  p{
     text-align: center;
     color: white;
-    margin-left:225px;
+    margin-left:200px;
     font-size: xx-small;
     font-weight: bold;
 }
@@ -41,6 +41,9 @@
     margin-right: auto;
     position: absolute;
     bottom:-8px; 
+}
+.about{
+    text-align: center;
 }
 
 
