@@ -4,7 +4,7 @@ $(document).ready(function(){
     $("#design-image").fadein()
     $("#design").fadeout();
   });
-  $("#design").click(function()
+  $("#design").click(function(){
     $("#design").fadein();
     $("#design-image").fadeout();
   });
