@@ -1,12 +1,12 @@
 $
 $(document).ready(function(){
   $("#design-image").click(function(){
-    $("#design-image").hide()
-    $("#design").show();
+    $("#design-image").fadein()
+    $("#design").fadeout();
   });
-  $("#design").click(function(){
-    $("#design").hide();
-    $("#design-image").show();
+  $("#design").click(function()
+    $("#design").fadein();
+    $("#design-image").fadeout();
   });
    $("#development-image").click(function(){
     $("#development-image").slideDown().hide()
