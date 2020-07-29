@@ -1,28 +1,28 @@
 $
 $(document).ready(function(){
   $("#design-image").click(function(){
-    $("#design-image").fadein()
-    $("#design").fadeout();
+    $("#design-image").hide()
+    $("#design").show();
   });
   $("#design").click(function(){
-    $("#design").fadein();
-    $("#design-image").fadeout();
+    $("#design").hide();
+    $("#design-image").show();
   });
    $("#development-image").click(function(){
-    $("#development-image").slideDown().hide()
+    $("#development-image").hide()
     $("#development").show();
   });
   $("#development").click(function(){
-    $("#development").slideUp();
-    $("#development-image").slideDown();
+    $("#development").hide();
+    $("#development-image").show();
   });
     $("#product-image").click(function(){
-    $("#product-image").slideDown().hide()
+    $("#product-image").hide()
     $("#product").show();
   });
   $("#product").click(function(){
-    $("#product").slideUp();
-    $("#product-image").slideDown();
+    $("#product").hide();
+    $("#product-image").show();
   });
 });
 // poertfolio text overlay images
