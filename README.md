@@ -7,7 +7,9 @@
   Jesse Victor
 
 ## Description of project
-
+   
+   An online studio that lets you see what they offer and if 
+    you like you can write and leave a comment down below..
 
 ## Project Used
 
